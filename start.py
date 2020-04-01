@@ -545,10 +545,6 @@ def get_certificate_authorities():
     return config
 
 
-        config["CACertificates"] = ",".join(files)
-    return config
-
-
 def get_client_certificates():
     config = {}
     client_certificates_json = os.getenv("CLIENT_CERTIFICATES", "[]")
