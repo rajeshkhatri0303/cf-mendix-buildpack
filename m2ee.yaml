@@ -22,6 +22,7 @@ m2ee:
     "-Djava.io.tmpdir=BUILD_PATH/data/tmp",
     "-XX:OnError=kill -s USR1 PYTHONPID",
     "-XX:OnOutOfMemoryError=kill -s USR2 PYTHONPID",
+    "-javaagent:/opt/newrelic/newrelic.jar"
  ]
 
  jetty:
