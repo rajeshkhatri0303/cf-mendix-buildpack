@@ -43,6 +43,8 @@ logging:
    filename: BUILD_PATH/log/out.log
    max_size: 1125899906842624  # 1PiB should be enough until we implement stdout logging
    max_rotation: 1
+   LogMinDurationQuery: 1
+   
 
 mxruntime:
  ApplicationRootUrl: https://APP_URI/
